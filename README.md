@@ -1,5 +1,7 @@
 # airbean-grupp-war-unicorns
-Readme text för gruppen War Unicorns
+**Lam Mai**<br>
+**Stefan Mogren**<br>
+**Thapa**
 
 Länk till FigJam: https://www.figma.com/board/tNgz6TZnQGExygZzP8skjb/War-Unicors---Gruppexamination-Airbean?node-id=0-1&t=aayqtrhBtKsBuAyS-1
 
