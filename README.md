@@ -5,10 +5,10 @@ Länk till FigJam: https://www.figma.com/board/tNgz6TZnQGExygZzP8skjb/War-Unicor
 
 # Sammanfattning
 ## Decomposition
-För att utläsa färgerna så har vi valt att färger representerar olika stegnivåer i systemet.
-Lila - Huvudnivå
-Gul, orange, röd - Nedgående underkategorier i systemet
-Grå - Databastabeller där information antingen lagras eller hämtas från databastabeller beroende på vilken sida eller funktion som användaren använder.
+För att utläsa färgerna så har vi valt att färger representerar olika stegnivåer i systemet: <br>
+Lila - Huvudnivå <br>
+Gul, orange, röd - Nedgående underkategorier i systemet<br>
+Grå - Databastabeller där information antingen lagras eller hämtas från databastabeller beroende på vilken sida eller funktion som användaren använder.<br>
 
 Som användare så kommer man kunna ha möjlighet att göra beställning som gäst eller som inloggad. Som gäst kommer man endast att nå orderstatus (som försvinner när tiden löpt ut) medan som inloggad kommer man även kunna se orderhistoriken samt att ordernumret sparas där. För gästen/inloggad kan även få kvitto med ordernumret via sms men måste fylla i telefonnummer för detta.
 
@@ -38,8 +38,8 @@ Vi har sedan presenterat alla huvuddelar med tillhörande beståndsdelar som är
 ## Alghorithm design
 Vi har gjort ett flödesschema som presenterar hur flödet ser ut för att göra en beställning som gäst, kund eller en användare som vill bli kund. För gästen skiljer det sig åt när man gör betalningen där den behöver fylla i leveransadress samt telefonnummer för att få ordernummer medan en som är inloggad kommer istället kunna se det i sin orderhistorik. Vidare har även den inloggade möjlighet att ta del av erbjudanden. Både gästen och inloggade kommer kunna få aviseringar/banner gällande orderstatusen.
 
-Det kommer finnas två möjligheter för en användare att logga in. Ena sättet är genom min profil medan andra sättet är precis före man gör sin betalning. Då blir användaren tillfrågad om de vill logga in/skapa konto för att t ex få fördel med sparad orderhistorik samt ta del av erbjudanden. Är användaren redan inloggad så blir den inte tillfrågad om detta.
+Det kommer finnas två möjligheter för en användare att logga in. Ena sättet är genom min profil medan andra sättet är precis före man gör sin betalning. Då blir användaren tillfrågad om de vill logga in/skapa konto för att t ex få fördel med sparad orderhistorik samt ta del av erbjudanden. Är användaren redan inloggad så blir den inte tillfrågad om detta.<br>
 
-Lila rektangel: Sidor/händelser/funktioner
-Gul rund cirkel: Val för användare
+Lila rektangel: Sidor/händelser/funktioner<br>
+Gul rund cirkel: Val för användare<br>
 Grå diamant - Intern kontroll
